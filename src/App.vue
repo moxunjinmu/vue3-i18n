@@ -1,7 +1,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import { useI18n } from 'vue-i18n'
-import I18n from './components/I18n'
+import {I18n} from './components/I18n/index'
 const { t } = useI18n()
 </script>
 
